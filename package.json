@@ -1,16 +1,13 @@
 {
-  "name": "react-native-toast-message",
-  "version": "2.1.5",
-  "description": "Toast message component for React Native",
+  "name": "eklipse-react-native-toast-message",
+  "version": "1.0.1",
+  "description": "Toast message component for react native developed for eklipse technologies",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
     "/lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/calintamas/react-native-toast-message.git"
-  },
+  "repository": "https://github.com/eklipsetechnologies/react-native-toast-message.git",
   "keywords": [
     "react-native",
     "toast"
@@ -25,7 +22,7 @@
     "yalc:push": "yarn build && yalc publish --push",
     "quality": "yarn lint && tsc --noEmit"
   },
-  "author": "Calin Tamas <calintamas2@gmail.com>",
+  "author": "Eklipse Technologies",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.8",
@@ -59,5 +56,6 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md}": "yarn prettier",
     "*.{js,jsx,ts,tsx}": "yarn lint"
-  }
+  },
+  "private": false
 }
